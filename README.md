@@ -9,12 +9,13 @@ profanity and censored text
 - Create conda environment
   ```bash
   conda create -n profanity_check python
+  conda activate profanity_check
   ```
   
  - Clone the repository
     ```bash 
     git clone https://github.com/pratham-kpatil/Profanity-Check.git 
-    cd profanity-check
+    cd Profanity-Check
  
  - Install requirements
     ```bash
@@ -24,14 +25,17 @@ profanity and censored text
 ## Usage
  
 - For single scentence
-  ```bash
-  python main.py --scentence ${your scentence} --print
+   ```bash
+    python main.py --scentence ${your scentence} --print
+   ```
   
  - For csv file
-  ```bash 
-  python main.py --csv_file ${path of csv_file} --print
-  
-  ## Assumptions
+   ```bash 
+    python main.py --csv_file ${path to csv_file} --print
+   ```
+  Use --print only when you want to print censored text in output
+ 
+ ## Assumptions
   
   - The csv file should contain a column named "scentences" which will have scentences 
   stored in it.
