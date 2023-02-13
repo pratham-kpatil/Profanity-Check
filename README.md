@@ -25,8 +25,8 @@ profanity and censored text
 ## Usage
  
 - For single scentence
-  ```bash
-  python main.py --scentence ${your scentence} --print
+   ```bash
+    python main.py --scentence ${your scentence} --print
   
  - For csv file
   ```bash 
