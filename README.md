@@ -38,5 +38,7 @@ profanity and censored text
   Use --save_path only when you want to save output as csv
  ## Assumptions
   
+  - Config file is generated with fake data to test the code
+  - Fake input csv file is generated in csv_data folder tp test code
   - The csv file should contain a column named "scentences" which will have scentences 
   stored in it.
