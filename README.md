@@ -34,6 +34,7 @@ profanity and censored text
     python main.py --csv_file ${path to csv_file} --print --save_path ${path to save output as csv}
    ```
   Use --print only when you want to print censored text in output
+  
   Use --save_path only when you want to save output as csv
  ## Assumptions
   
