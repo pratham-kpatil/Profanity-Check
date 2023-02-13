@@ -32,7 +32,7 @@ profanity and censored text
  - For csv file
    ```bash 
     python main.py --csv_file ${path to csv_file} --print
-  ```
+   ```
   Use --print only when you want to print censored text in output
  
  ## Assumptions
