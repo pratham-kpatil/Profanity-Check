@@ -27,14 +27,15 @@ profanity and censored text
 - For single scentence
    ```bash
     python main.py --scentence ${your scentence} --print
+   ```
   
  - For csv file
   ```bash 
   python main.py --csv_file ${path to csv_file} --print
-  
+  ```
   Use --print only when you want to print censored text in output
-  
-  ## Assumptions
+ 
+ ## Assumptions
   
   - The csv file should contain a column named "scentences" which will have scentences 
   stored in it.
