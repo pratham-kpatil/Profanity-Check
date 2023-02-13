@@ -13,7 +13,7 @@ profanity and censored text
   
  - Clone the repository
     ```bash 
-    git clone 
+    git clone https://github.com/pratham-kpatil/Profanity-Check.git 
     cd profanity-check
  
  - Install requirements
